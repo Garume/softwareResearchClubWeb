@@ -1,1 +1,1 @@
-# SoftwareResearchClubWeb
+# softwareResearchClubWeb
