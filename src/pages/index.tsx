@@ -1,11 +1,11 @@
 import { NextPage } from "next"
 import SRCIcon from "../components/title/src-Icon"
+import Title from "../components/title/title"
 
 const Home: NextPage = () => {
   return (
-    <div className="h-full w-full">
-      <div>Home</div>
-      <SRCIcon />
+    <div className="h-screen w-screen overflow-hidden">
+      <Title />
     </div>
   )
 }
