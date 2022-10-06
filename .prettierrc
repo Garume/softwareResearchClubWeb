@@ -1,7 +1,8 @@
 {
-    "trailingComma": "es5",
-    "tabWidth": 2,
-    "arrowParens": "always",
-    "semi": false,
-    "plugins": ["prettier-plugin-tailwindcss"]
-  }
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "arrowParens": "always",
+  "semi": false,
+  "endOfLine": "auto",
+  "plugins": ["prettier-plugin-tailwindcss"]
+}
