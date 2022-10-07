@@ -51,7 +51,6 @@ jobs:
       # productionブランチにoutディレクトリの中身をプッシュする
       # productionブランチは自動的に作成される
       - name: deploy
-        uses: peaceiris/actions-production@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
