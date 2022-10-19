@@ -7,8 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export",
-    "serve": "yarn export && serve ./out"
+    "replace": "replace /_next/ _next/ out -r",
+    "export": "next build && next export && yarn replace",
+    "serve": "next build && next export && serve ./out"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -22,7 +23,8 @@
     "next-videos": "1.5.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-player": "^2.11.0"
+    "react-player": "^2.11.0",
+    "replace": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^18.7.23",
